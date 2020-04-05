@@ -3,23 +3,65 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>My "First" Website</title>
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>This is a personal website made to test my Gitbash skills</h1>
+<body>  
+    
+    <div class="jumbotron">
+      <div class="nav_container">
+        <!--Bootsrap Navbar-->
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <br><br>
-    <h2>This is a bulleted list</h2>
-        <ul>
-            <li>
-                <p>words</p>
-            </li>
-            <li>
-                <p>words</p>
-            </li>
-            <li>
-                <p>words</p>
-            </li>
-            </ul>
+    
+    <div class="container"> 
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <img class="img-fluid bioImage" src="https://images.squarespace-cdn.com/content/v1/5b94a40a697a9812941c46e8/1563658668336-L3KHYUJFJCXS0SFTBWHE/ke17ZwdGBToddI8pDm48kOJKmLo_FBmFgq96Wj3pHHZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k9kZPbuygN4RSDPe_G5PO-pGSUmFejYyNdldZUsgA1geY3EYMDizs3YOd-BypEwww/ShopPortrait.jpeg?format=1000w">
+        </div>
+        
+        <div class="col-sm-12 col-md-6">
+          <div class="textContainer">
+            <h2>JULIAN SECOMB</h2>
+            <p> I am a woodworker, designer and software developer in training living in Tucson, AZ. My goal is to gain experience in every level of application development, from back-end architecture and data structures to user experience and design. I hope to use my experience designing and building physical products to create engaging applications that feel multidimensional.
+            </p>
+            <h4><a href="https://www.resumonk.com/Cfo_SoXHKotTTrezrsKnpg" class="portfolioLink">Resume</a></h4>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <br><br>
 
 </body>
+
+<footer class="page-footer font-small blue"> <!-- Footer from bootstrap-->
+
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://github.com/jsecomb" class="footerLink"> Jsecomb.github.io</a>
+  </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
