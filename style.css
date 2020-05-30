@@ -105,9 +105,6 @@ p{
     border-radius: 30px;
 }
 
-.carousel {
-}
-
 .portfolioText {
     border-radius: 30px;
     background-color: #d3d3d3;
@@ -116,7 +113,7 @@ p{
 .contactMe {
     margin: 0 auto;
     padding: 10px;
-    width: 360px;
+    width: auto;
 }
 
 .btn-primary {
@@ -173,7 +170,7 @@ p{
 
 .contactInfo{
     margin: 0 auto;
-    width: 400px;
+    width: auto;
     padding: 12px;
     background-color: white;
     box-shadow: 5px 5px #3765b0;
@@ -186,9 +183,11 @@ p{
 
 .form-control {
     border-radius: 0%;
+    width: auto;
 }
 
 @media screen and (max-width: 768px) {
+
     .carousel-inner {
         margin-bottom: 15px;
     }
