@@ -1,18 +1,17 @@
 
 body {
-    background-color: #399;
-
+    background-color: #0095d1;
 }
 
 .jumbotron {
-    background-color: purple;
+    background-color: #3765b0;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .container {
     width: 80%;
-    padding: 50px;
+    padding: 40px;
     border-bottom: dashed;
     border-width: 6px;
     word-wrap: auto;
@@ -26,36 +25,31 @@ body {
 
 .textContainer {
     padding:14px;
-    background-color: beige;
-    border-color: navy;
-    border-style: outset;
-    border-radius: 30px;
-    box-shadow: 3px 3px 2px orange;
+    background-color: white;
+    box-shadow: 5px 5px #3765b0;
 }
 
 .bioImage {
-    border-radius: 30px;
     size: fill;
-    border-color: navy;
-    border-style: outset;
+    box-shadow: 5px 5px #3765b0;
 }
 
 a.nav-link { 
     Font-family: 'Monoton', cursive;
     font-size: 36px;
-    color: #39ff14;
+    color: white;
 }
 
 a.nav-link:hover {
-    color: #39ff14;
-    text-shadow: 3px 3px 2px orange;
+    color:white;
+    text-shadow: 2px 2px 1px orange;
 }
 
 a.active {
     font-family: 'Monoton', cursive;
     font-size: 36px;
-    color: #39ff14;
-    text-shadow: 2px 2px 1px orange;
+    color:white;
+    text-shadow: 2px 2px 1px black;
 }
 
 .nav {
@@ -75,7 +69,7 @@ h1{
     font-size: 35px;
     font-weight: 1000;
     color: whitesmoke;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px black;
     text-align: center;
     word-wrap: justify;
 }
@@ -120,16 +114,25 @@ p{
 }
 
 .contactMe {
-    padding: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 360px;
 }
 
 .btn-primary {
-    background-color: #ff971a;
     border: none;
+    border-radius: 0px;
+    color: black;
+    font-size: 25px;
+    font-weight: 1000;
+    padding: 6px;
+    background-color: #f5ef00;
+    box-shadow: 4px 4px black;
 }
 
 .btn-primary:hover {
-    background-color: orangered;
+    color: black;
+    background-color:  #dbd033;
 }
 
 .page-footer {
@@ -156,13 +159,33 @@ p{
     color: black;
     text-align: center;
     word-wrap: justify;
-    border-bottom: 2px solid currentColor;
-    padding-top: 12px;
+    padding: 6px;
+    background-color: #f5ef00;
+    box-shadow: 4px 4px black;
 }
 
-.contactLink{
+.githubLink {
     font-family: 'Poiret One', cursive;
-    color: darkgray;
+    font-size: 16px;
+    font-weight: 1000;
+    color:#3765b0;
+}
+
+.contactInfo{
+    margin: 0 auto;
+    width: 400px;
+    padding: 12px;
+    background-color: white;
+    box-shadow: 5px 5px #3765b0;
+}
+
+.contactLink {
+    font-family: 'Poiret One', cursive;
+    color: black;
+}
+
+.form-control {
+    border-radius: 0%;
 }
 
 @media screen and (max-width: 768px) {
