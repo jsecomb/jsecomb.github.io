@@ -42,7 +42,7 @@ a.nav-link {
 
 a.nav-link:hover {
     color:white;
-    text-shadow: 2px 2px 1px orange;
+    text-shadow: 2px 2px 1px rgb(66, 66, 66);
 }
 
 a.active {
